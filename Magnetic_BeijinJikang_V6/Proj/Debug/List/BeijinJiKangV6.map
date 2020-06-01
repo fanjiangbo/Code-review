@@ -1,0 +1,638 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.2.15995/W32 for ARM                27/May/2020  20:57:08
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Exe\BeijinJiKangV6.out
+#    Map file     =  
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\List\BeijinJiKangV6.map
+#    Command line =  
+#        -f C:\Users\hp\AppData\Local\Temp\EW6960.tmp
+#        (D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\Analog.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\CommonFunctions.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\Display.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\flash_if.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\FlashOperator.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\main.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\SPI1.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\startup_stm32f072.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_adc.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_can.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_cec.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_comp.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_crc.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_crs.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_dac.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_dbgmcu.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_dma.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_exti.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_flash.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_gpio.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_i2c.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_iwdg.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_misc.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_pwr.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_rcc.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_rtc.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_spi.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_syscfg.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_tim.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_usart.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\stm32f0xx_wwdg.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\STM32FX_Systick.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\STM32FXModbus.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\system_stm32f0xx.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\TDC_GP21.o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj\UserApp.o -o
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Exe\BeijinJiKangV6.out
+#        --map
+#        D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\List\BeijinJiKangV6.map
+#        --config D:\IAR\arm\config\linker\ST\stm32f072x8.icf --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20003fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32f072.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x48e2
+  .text              ro code  0x080000c0  0x1200  STM32FXModbus.o [1]
+  .text              ro code  0x080012c0    0x50  ABImemset.o [5]
+  .text              ro code  0x08001310    0x44  stm32f0xx_iwdg.o [1]
+  .text              ro code  0x08001354   0x398  CommonFunctions.o [1]
+  .text              ro code  0x080016ec   0x1d4  stm32f0xx_usart.o [1]
+  .text              ro code  0x080018c0   0x214  stm32f0xx_dma.o [1]
+  .text              ro code  0x08001ad4   0x2a4  STM32FX_Systick.o [1]
+  .text              ro code  0x08001d78    0xf4  stm32f0xx_tim.o [1]
+  .text              ro code  0x08001e6c   0x33c  stm32f0xx_rcc.o [1]
+  .text              ro code  0x080021a8    0x74  stm32f0xx_misc.o [1]
+  .text              ro code  0x0800221c   0x134  stm32f0xx_gpio.o [1]
+  .text              ro code  0x08002350    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x080023ac    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x0800248c     0x2  IntDivZer.o [5]
+  .text              ro code  0x0800248e     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08002490  0x1104  UserApp.o [1]
+  .text              ro code  0x08003594   0x164  SPI1.o [1]
+  .text              ro code  0x080036f8   0x188  Analog.o [1]
+  .text              ro code  0x08003880   0x178  Display.o [1]
+  .text              ro code  0x080039f8   0x26e  TDC_GP21.o [1]
+  .text              ro code  0x08003c66     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08003c68    0xfe  FlashOperator.o [1]
+  .text              ro code  0x08003d66    0x6a  I64DivMod.o [5]
+  .text              ro code  0x08003dd0    0x64  stm32f0xx_syscfg.o [1]
+  .text              ro code  0x08003e34    0xc0  stm32f0xx_exti.o [1]
+  .text              ro code  0x08003ef4    0x32  I64Mul.o [5]
+  .text              ro code  0x08003f26     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08003f28    0x48  IxxToFlt.o [4]
+  .text              ro code  0x08003f70    0xaa  FltDiv.o [4]
+  .text              ro code  0x0800401a     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800401c    0xbe  stm32f0xx_spi.o [1]
+  .text              ro code  0x080040da     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x080040dc   0x168  stm32f0xx_flash.o [1]
+  .text              ro code  0x08004244     0x2  I64DivZer.o [5]
+  .text              ro code  0x08004246     0x2  startup_stm32f072.o [1]
+  .rodata            const    0x08004248   0x200  UserApp.o [1]
+  .rodata            const    0x08004448   0x100  CommonFunctions.o [1]
+  .rodata            const    0x08004548   0x100  CommonFunctions.o [1]
+  .text              ro code  0x08004648    0xf0  system_stm32f0xx.o [1]
+  .text              ro code  0x08004738    0x4c  main.o [1]
+  .text              ro code  0x08004784    0x3c  startup_stm32f072.o [1]
+  .text              ro code  0x080047c0    0x3c  zero_init3.o [5]
+  .text              ro code  0x080047fc    0x30  copy_init3.o [5]
+  .rodata            const    0x0800482c    0x2c  UserApp.o [1]
+  .text              ro code  0x08004858    0x28  data_init.o [5]
+  .rodata            const    0x08004880    0x24  UserApp.o [1]
+  .iar.init_table    const    0x080048a4    0x24  - Linker created -
+  .text              ro code  0x080048c8    0x1e  cmain.o [5]
+  .text              ro code  0x080048e6     0x4  low_level_init.o [3]
+  .text              ro code  0x080048ea     0x8  exit.o [3]
+  .text              ro code  0x080048f2     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x080048f4     0xa  cexit.o [5]
+  .text              ro code  0x080048fe     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004900    0x14  exit.o [6]
+  Initializer bytes  const    0x08004914    0x1c  <for P2-1>
+  .rodata            const    0x08004930    0x10  UserApp.o [1]
+  .rodata            const    0x08004940    0x10  UserApp.o [1]
+  .rodata            const    0x08004950     0xc  UserApp.o [1]
+  .rodata            const    0x0800495c     0xc  UserApp.o [1]
+  .text              ro code  0x08004968     0xc  cstartup_M.o [5]
+  .rodata            const    0x08004974     0x4  UserApp.o [1]
+  .text              ro code  0x08004978     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800497a     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800497c     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800497e     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004980     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004982     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004984     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004986     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004988     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800498a     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800498c     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800498e     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004990     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004992     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004994     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004996     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x08004998     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800499a     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800499c     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x0800499e     0x2  startup_stm32f072.o [1]
+  .text              ro code  0x080049a0     0x2  startup_stm32f072.o [1]
+  .rodata            const    0x080049a2     0x0  zero_init3.o [5]
+  .rodata            const    0x080049a2     0x0  copy_init3.o [5]
+                            - 0x080049a2  0x48e2
+
+"P2", part 1 of 3:                          0x1c
+  P2-1                        0x20000000    0x1b  <Init block>
+    .data            inited   0x20000000    0x10  stm32f0xx_rcc.o [1]
+    .data            inited   0x20000010     0x4  STM32FXModbus.o [1]
+    .data            inited   0x20000014     0x4  system_stm32f0xx.o [1]
+    .data            inited   0x20000018     0x1  Display.o [1]
+    .data            inited   0x20000019     0x1  STM32FXModbus.o [1]
+    .data            inited   0x2000001a     0x1  UserApp.o [1]
+                            - 0x2000001b    0x1b
+
+"P2", part 2 of 3:                         0xb40
+  .bss               zero     0x2000001c   0x400  UserApp.o [1]
+  .bss               zero     0x2000041c   0x200  UserApp.o [1]
+  .bss               zero     0x2000061c   0x200  UserApp.o [1]
+  .bss               zero     0x2000081c   0x108  UserApp.o [1]
+  .bss               zero     0x20000924   0x108  UserApp.o [1]
+  .bss               zero     0x20000a2c    0x3c  STM32FX_Systick.o [1]
+  .bss               zero     0x20000a68    0x24  UserApp.o [1]
+  .bss               zero     0x20000a8c    0x20  UserApp.o [1]
+  .bss               zero     0x20000aac    0x1c  UserApp.o [1]
+  .bss               zero     0x20000ac8     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000ad4     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000ae0     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000aec     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000af8     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000b04     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000b10     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000b1c     0xc  STM32FXModbus.o [1]
+  .bss               zero     0x20000b28     0x8  STM32FXModbus.o [1]
+  .bss               zero     0x20000b30     0x8  UserApp.o [1]
+  .bss               zero     0x20000b38     0x4  STM32FX_Systick.o [1]
+  .bss               zero     0x20000b40     0x8  UserApp.o [1]
+  .bss               zero     0x20000b48     0x4  UserApp.o [1]
+  .bss               zero     0x20000b4c     0x4  UserApp.o [1]
+  .bss               zero     0x20000b50     0x2  STM32FXModbus.o [1]
+  .bss               zero     0x20000b52     0x2  UserApp.o [1]
+  .bss               zero     0x20000b54     0x2  UserApp.o [1]
+  .bss               zero     0x20000b56     0x1  Display.o [1]
+  .bss               zero     0x20000b57     0x1  STM32FXModbus.o [1]
+  .bss               zero     0x20000b58     0x1  UserApp.o [1]
+  .bss               zero     0x20000b59     0x1  UserApp.o [1]
+                            - 0x20000b5a   0xb3e
+
+"P2", part 3 of 3:                         0x800
+  CSTACK                      0x20000b60   0x800  <Block>
+    CSTACK           uninit   0x20000b60   0x800  <Block tail>
+                            - 0x20001360   0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xb3e:
+          0x2000001c  0xb3e
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c (103% of destination):
+          0x08004914   0x1c
+    1 destination range, total size 0x1b:
+          0x20000000   0x1b
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj: [1]
+    Analog.o                 392
+    CommonFunctions.o        920      512
+    Display.o                376        1        2
+    FlashOperator.o          254
+    SPI1.o                   356
+    STM32FXModbus.o        4 608        5      112
+    STM32FX_Systick.o        676                64
+    TDC_GP21.o               622
+    UserApp.o              4 356      653    2 703
+    main.o                    76
+    startup_stm32f072.o      310
+    stm32f0xx_dma.o          532
+    stm32f0xx_exti.o         192
+    stm32f0xx_flash.o        360
+    stm32f0xx_gpio.o         308
+    stm32f0xx_iwdg.o          68
+    stm32f0xx_misc.o         116
+    stm32f0xx_rcc.o          828       16       16
+    stm32f0xx_spi.o          190
+    stm32f0xx_syscfg.o       100
+    stm32f0xx_tim.o          244
+    stm32f0xx_usart.o        468
+    system_stm32f0xx.o       240        4        4
+    ----------------------------------------------
+    Total:                16 592    1 191    2 901
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+m6M_tl.a: [4]
+    FltDiv.o                 170
+    IxxToFlt.o                72
+    ----------------------------------------------
+    Total:                   242
+
+rt6M_tl.a: [5]
+    ABImemcpy.o               92
+    ABImemset.o               80
+    I32DivModFast.o          224
+    I64DivMod.o              106
+    I64DivZer.o                2
+    I64Mul.o                  50
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              60
+    ----------------------------------------------
+    Total:                   756
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                                         4
+    Linker created                     37    2 048
+--------------------------------------------------
+    Grand Total:          17 622    1 228    4 953
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x080048a4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080048c8          --   Gb  - Linker created -
+?main                   0x080048c9         Code  Gb  cmain.o [5]
+ANALOG_AD5422OutPutParametersConfig
+                        0x0800375b   0x80  Code  Gb  Analog.o [1]
+ANALOG_ChipInit         0x080036f9   0x62  Code  Gb  Analog.o [1]
+ANALOG_RefreshAD5422Output
+                        0x0800384d   0x34  Code  Gb  Analog.o [1]
+ANALOG_Write16Bits2AD5422
+                        0x08003823   0x2a  Code  Lc  Analog.o [1]
+ANALOG_WriteCommand2AD5422
+                        0x080037f5   0x2e  Code  Lc  Analog.o [1]
+APBAHBPrescTable        0x20000000   0x10  Data  Lc  stm32f0xx_rcc.o [1]
+COMMON_Bits16Convert2Bits8
+                        0x08001417   0x36  Code  Gb  CommonFunctions.o [1]
+COMMON_Bits32Convert2Bits8
+                        0x0800144d   0x4c  Code  Gb  CommonFunctions.o [1]
+COMMON_Bits8Convert2Bits16
+                        0x08001367   0x3e  Code  Gb  CommonFunctions.o [1]
+COMMON_Bits8Convert2Bits32
+                        0x080013a5   0x72  Code  Gb  CommonFunctions.o [1]
+COMMON_ConverAscii2CommonMode
+                        0x08001499   0xbe  Code  Gb  CommonFunctions.o [1]
+COMMON_Convert1Byteto4Bits
+                        0x08001557   0x5c  Code  Gb  CommonFunctions.o [1]
+COMMON_ConvertHex2Ascii
+                        0x080015d3   0xc2  Code  Gb  CommonFunctions.o [1]
+COMMON_DelayXus         0x08001355   0x12  Code  Gb  CommonFunctions.o [1]
+COMMON_GeneratorLRCCheckCode
+                        0x080015b3   0x20  Code  Gb  CommonFunctions.o [1]
+COMMON_GeneratorU16bitsCRCCheckCode
+                        0x08001695   0x4e  Code  Gb  CommonFunctions.o [1]
+CRCHighTab              0x08004548  0x100  Data  Gb  CommonFunctions.o [1]
+CRCLowTab               0x08004448  0x100  Data  Gb  CommonFunctions.o [1]
+CSTACK$$Base            0x20000b60          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001360          --   Gb  - Linker created -
+DISPLAY_LedBlinkProcess
+                        0x080038df  0x10a  Code  Lc  Display.o [1]
+DISPLAY_LedControlGpioInit
+                        0x08003897   0x48  Code  Lc  Display.o [1]
+DISPLAY_LedInit         0x08003881   0x16  Code  Gb  Display.o [1]
+DMA1_Channel2_3_IRQHandler
+                        0x08000293   0x38  Code  Gb  STM32FXModbus.o [1]
+DMACurDataCounter       0x20000b50    0x2  Data  Lc  STM32FXModbus.o [1]
+DMA_ClearFlag           0x08001a55   0x12  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Cmd                 0x08001a17   0x1e  Code  Gb  stm32f0xx_dma.o [1]
+DMA_DeInit              0x080018c1  0x11a  Code  Gb  stm32f0xx_dma.o [1]
+DMA_GetCurrDataCounter  0x08001a35    0x6  Code  Gb  stm32f0xx_dma.o [1]
+DMA_GetITStatus         0x08001a67   0x24  Code  Gb  stm32f0xx_dma.o [1]
+DMA_ITConfig            0x08001a3b   0x1a  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Init                0x080019db   0x3c  Code  Gb  stm32f0xx_dma.o [1]
+DeviceInformation       0x08004248  0x200  Data  Gb  UserApp.o [1]
+EXTI0_1_IRQHandler      0x08003025   0x2e  Code  Gb  UserApp.o [1]
+EXTI4_15_IRQHandler     0x08003053  0x172  Code  Gb  UserApp.o [1]
+EXTI_ClearITPendingBit  0x08003ed7    0x6  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_GetITStatus        0x08003ebd   0x1a  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_Init               0x08003e35   0x88  Code  Gb  stm32f0xx_exti.o [1]
+FLASHOP_EraseSpecifiedFlashPages
+                        0x08003c69   0x5c  Code  Gb  FlashOperator.o [1]
+FLASHOP_ReadDataFromChipFlash
+                        0x08003d29   0x3e  Code  Gb  FlashOperator.o [1]
+FLASHOP_WriteData2SpecifiedFlash
+                        0x08003cc5   0x5c  Code  Gb  FlashOperator.o [1]
+FLASH_ErasePage         0x08004103   0x50  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_GetStatus         0x080041e1   0x2e  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_Lock              0x080040f5    0xe  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_ProgramWord       0x08004153   0x78  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_Unlock            0x080040dd   0x18  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08004215   0x30  Code  Gb  stm32f0xx_flash.o [1]
+Func03CodeAddrTab       0x08004880   0x24  Data  Gb  UserApp.o [1]
+Func04CodeAddrTab       0x08004930   0x10  Data  Gb  UserApp.o [1]
+Func05CodeAddrTab       0x08004950    0xc  Data  Gb  UserApp.o [1]
+Func25CodeAddrTab       0x08004974    0x4  Data  Gb  UserApp.o [1]
+Func26CodeAddrTab       0x08004940   0x10  Data  Gb  UserApp.o [1]
+Func2ACodeAddrTab       0x0800495c    0xc  Data  Gb  UserApp.o [1]
+GPIO_Init               0x0800221d   0xbc  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x080022e5   0x6c  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ResetBits          0x080022e1    0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits            0x080022d9    0x8  Code  Gb  stm32f0xx_gpio.o [1]
+IWDG_Enable             0x08001337    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_Init               0x0800474d   0x2e  Code  Lc  main.o [1]
+IWDG_ReloadCounter      0x0800132f    0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetPrescaler       0x0800131b    0xa  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetReload          0x08001325    0xa  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_WriteAccessCmd     0x08001311    0xa  Code  Gb  stm32f0xx_iwdg.o [1]
+MAGNETAPP_ProcessSensorData
+                        0x080033ed  0x174  Code  Lc  UserApp.o [1]
+NVIC_Init               0x080021a9   0x68  Code  Gb  stm32f0xx_misc.o [1]
+NVIC_SetPriority        0x08001ad5   0x8e  Code  Lc  STM32FX_Systick.o [1]
+NVIC_SystemReset        0x08002491   0x12  Code  Lc  UserApp.o [1]
+RCC_AHBPeriphClockCmd   0x080020b5   0x22  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080020fd   0x22  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080020d7   0x22  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x08001e99  0x218  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetFlagStatus       0x0800213d   0x4e  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_LSICmd              0x08001e6d   0x26  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x080048a4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080048c8          --   Gb  - Linker created -
+SPI_Cmd                 0x0800406b   0x1e  Code  Gb  stm32f0xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x080040c5   0x16  Code  Gb  stm32f0xx_spi.o [1]
+SPI_Init                0x0800401d   0x4e  Code  Gb  stm32f0xx_spi.o [1]
+SPI_ReceiveData8        0x080040a3    0xc  Code  Gb  stm32f0xx_spi.o [1]
+SPI_RxFIFOThresholdConfig
+                        0x08004089   0x10  Code  Gb  stm32f0xx_spi.o [1]
+SPI_SendData8           0x08004099    0xa  Code  Gb  stm32f0xx_spi.o [1]
+SPI_Spi1DriveInite      0x080035db   0xb4  Code  Gb  SPI1.o [1]
+SPI_Spi1ReadWrit1Byte   0x0800368f   0x58  Code  Gb  SPI1.o [1]
+SPI_Spi1SwitchCPHA      0x08003595   0x46  Code  Gb  SPI1.o [1]
+STM32FX_Modbus_CommunicateCommParaConfig
+                        0x0800053b  0x11a  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_CommunicateDMAConfig
+                        0x0800065d   0xbe  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_CommunicateInit
+                        0x08000399   0xb6  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_CommunicatePortPinAndIntInit
+                        0x08000475   0xc6  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_CommunicateResponseInformation
+                        0x08000721   0x90  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_CommunicateSendData
+                        0x080007b5   0x4c  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode03ParameterInit
+                        0x08000819   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode03Process
+                        0x08000b01   0xa4  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode04ParameterInit
+                        0x0800085b   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode04Process
+                        0x08000bb1   0xb8  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode05ParameterInit
+                        0x080008f9   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode05_25WriteData
+                        0x08000fc9  0x12a  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode10Process
+                        0x08000d31   0xbc  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode10_27WriteData
+                        0x08001145   0x74  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode25ParameterInit
+                        0x08000941   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode26ParameterInit
+                        0x080008a9   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode26Process
+                        0x08000c71   0xb8  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode27Process
+                        0x08000df1   0xc2  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode2AParameterInit
+                        0x08000989   0x42  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode2AWriteInformation
+                        0x080011b9   0xf4  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCode2BProcess
+                        0x08000ebd  0x10c  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_FunctionCodeReadData
+                        0x080009d5  0x11e  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_ModbusIsSendingData
+                        0x08000801   0x18  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Modbus_ModbusTimer
+                        0x080000c1  0x186  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_Timer7Config
+                        0x080002cb   0x66  Code  Lc  STM32FXModbus.o [1]
+STM32FX_Modbus_WriteParameterFunctionResponse
+                        0x080010f3   0x4a  Code  Gb  STM32FXModbus.o [1]
+STM32FX_Systick_Delayxms
+                        0x08001bb7   0x18  Code  Gb  STM32FX_Systick.o [1]
+STM32FX_Systick_TickClockConfig
+                        0x08001b95   0x22  Code  Gb  STM32FX_Systick.o [1]
+STM32FX_Systick_TimerControlInit
+                        0x08001c2f   0x54  Code  Lc  STM32FX_Systick.o [1]
+STM32FX_Systick_TimerProcess
+                        0x08001bcf   0x60  Code  Gb  STM32FX_Systick.o [1]
+STM32FX_Systick_TimerSet
+                        0x08001c83   0x6c  Code  Gb  STM32FX_Systick.o [1]
+SYSCFG_EXTILineConfig   0x08003dd1   0x5e  Code  Gb  stm32f0xx_syscfg.o [1]
+SetSysClock             0x080046b7   0x50  Code  Lc  system_stm32f0xx.o [1]
+SysTick_Config          0x08001b63   0x32  Code  Lc  STM32FX_Systick.o [1]
+SysTick_Handler         0x08001cef   0x68  Code  Gb  STM32FX_Systick.o [1]
+SystemCoreClock         0x20000014    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08004649   0x6e  Code  Gb  system_stm32f0xx.o [1]
+TDC_CongfigTDCChip      0x08003b6b   0x28  Code  Lc  TDC_GP21.o [1]
+TDC_Read32BitsDataFromTDC
+                        0x08003bf5   0x72  Code  Gb  TDC_GP21.o [1]
+TDC_ResetTdcChip        0x08003af9   0x44  Code  Lc  TDC_GP21.o [1]
+TDC_TDCControlPinInit   0x08003a09   0xf0  Code  Lc  TDC_GP21.o [1]
+TDC_TDCInit             0x080039f9   0x10  Code  Gb  TDC_GP21.o [1]
+TDC_WriteCommand2Tdc    0x08003b3d   0x2e  Code  Gb  TDC_GP21.o [1]
+TDC_Write_TDCRegister   0x08003ba5   0x50  Code  Gb  TDC_GP21.o [1]
+TIM2_Configuration      0x08003295   0x88  Code  Lc  UserApp.o [1]
+TIM2_IRQHandler         0x0800331d   0xbe  Code  Gb  UserApp.o [1]
+TIM3_IRQHandler         0x08003241   0x3c  Code  Gb  UserApp.o [1]
+TIM7_IRQHandler         0x08000331   0x58  Code  Gb  STM32FXModbus.o [1]
+TIM_ClearITPendingBit   0x08001e63    0xa  Code  Gb  stm32f0xx_tim.o [1]
+TIM_Cmd                 0x08001dd9   0x1e  Code  Gb  stm32f0xx_tim.o [1]
+TIM_GetITStatus         0x08001e37   0x2c  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ITConfig            0x08001e1d   0x1a  Code  Gb  stm32f0xx_tim.o [1]
+TIM_SetCounter          0x08001dd5    0x4  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit        0x08001d79   0x5c  Code  Gb  stm32f0xx_tim.o [1]
+TmrTbl                  0x20000a2c   0x3c  Data  Lc  STM32FX_Systick.o [1]
+USART1_IRQHandler       0x08000247   0x4c  Code  Gb  STM32FXModbus.o [1]
+USART_ClearFlag         0x08001857    0x4  Code  Gb  stm32f0xx_usart.o [1]
+USART_ClearITPendingBit
+                        0x080018af   0x12  Code  Gb  stm32f0xx_usart.o [1]
+USART_Cmd               0x080017bb   0x1e  Code  Gb  stm32f0xx_usart.o [1]
+USART_DMACmd            0x080017f5   0x1a  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus       0x0800185b   0x54  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x0800180f   0x48  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x080016ed   0xce  Code  Gb  stm32f0xx_usart.o [1]
+USERAPP_ADG779ControlTimerConfig
+                        0x080031c9   0x74  Code  Lc  UserApp.o [1]
+USERAPP_ExtInterruptConfig
+                        0x08002ef5  0x124  Code  Lc  UserApp.o [1]
+USERAPP_GenerateSystemParameters
+                        0x08002699  0x1c2  Code  Lc  UserApp.o [1]
+USERAPP_Implement05FuncCode
+                        0x08002a35   0x72  Code  Lc  UserApp.o [1]
+USERAPP_Implement25FuncCode
+                        0x08002ab5   0xa0  Code  Lc  UserApp.o [1]
+USERAPP_Implement2AFuncCode
+                        0x08002b5d   0x84  Code  Lc  UserApp.o [1]
+USERAPP_ImplementWriteParaFuncCode
+                        0x08002c05  0x24e  Code  Lc  UserApp.o [1]
+USERAPP_ModbusCommunicateParameteresInit
+                        0x08002515  0x152  Code  Lc  UserApp.o [1]
+USERAPP_ParseReceiveModbusData
+                        0x08002899  0x18e  Code  Lc  UserApp.o [1]
+USERAPP_WriteParameter2Flash
+                        0x08002e53   0x90  Code  Lc  UserApp.o [1]
+USERApp_Init            0x080024af   0x66  Code  Gb  UserApp.o [1]
+USERApp_MagnetProcess   0x080024a3    0xc  Code  Gb  UserApp.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20003fff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         Data  Gb  command line/config [2]
+__aeabi_fdiv            0x08003f71         Code  Gb  FltDiv.o [4]
+__aeabi_idiv            0x080023d9         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x0800248d         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x080023d9         Code  Gb  I32DivModFast.o [5]
+__aeabi_ldiv0           0x08004245         Code  Gb  I64DivZer.o [5]
+__aeabi_lmul            0x08003ef5         Code  Gb  I64Mul.o [5]
+__aeabi_memcpy          0x08002351         Code  Gb  ABImemcpy.o [5]
+__aeabi_memset          0x080012c1         Code  Gb  ABImemset.o [5]
+__aeabi_ui2f            0x08003f51         Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x080023df         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x080023df         Code  Gb  I32DivModFast.o [5]
+__aeabi_ul2f            0x08003f29         Code  Gb  IxxToFlt.o [4]
+__aeabi_uldivmod        0x08003d67         Code  Gb  I64DivMod.o [5]
+__cmain                 0x080048c9         Code  Gb  cmain.o [5]
+__exit                  0x08004901   0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x080012e1         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x080012cd         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x080047fd   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08004859   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08004969         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x080047c1   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x080048e7    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f072.o [1]
+_call_main              0x080048d5         Code  Gb  cmain.o [5]
+_exit                   0x080048f5         Code  Gb  cexit.o [5]
+_main                   0x080048e3         Code  Gb  cmain.o [5]
+delaymscnt              0x20000b38    0x4  Data  Lc  STM32FX_Systick.o [1]
+exit                    0x080048eb    0x8  Code  Gb  exit.o [3]
+grnledflg               0x20000018    0x1  Data  Lc  Display.o [1]
+main                    0x08004739   0x14  Code  Gb  main.o [1]
+mdbus_rcvbuf            0x2000001c  0x400  Data  Lc  UserApp.o [1]
+modbus_idle_int_flg     0x20000019    0x1  Data  Lc  STM32FXModbus.o [1]
+parsebuf                0x2000061c  0x200  Data  Lc  UserApp.o [1]
+presetsyspara           0x0800482c   0x2c  Data  Gb  UserApp.o [1]
+redledflg               0x20000b56    0x1  Data  Lc  Display.o [1]
+s_combine               0x20000a68   0x24  Data  Lc  UserApp.o [1]
+s_compara               0x20000010    0x4  Data  Lc  STM32FXModbus.o [1]
+s_f03                   0x20000ae0    0xc  Data  Lc  STM32FXModbus.o [1]
+s_f04                   0x20000aec    0xc  Data  Lc  STM32FXModbus.o [1]
+s_f05                   0x20000af8    0xc  Data  Lc  STM32FXModbus.o [1]
+s_f25                   0x20000b10    0xc  Data  Lc  STM32FXModbus.o [1]
+s_f26                   0x20000b04    0xc  Data  Lc  STM32FXModbus.o [1]
+s_f2A                   0x20000b1c    0xc  Data  Lc  STM32FXModbus.o [1]
+s_logic05               0x20000b30    0x8  Data  Lc  UserApp.o [1]
+s_logic25               0x20000b54    0x2  Data  Lc  UserApp.o [1]
+s_mdbs_parse            0x20000ad4    0xc  Data  Lc  STM32FXModbus.o [1]
+s_mdbs_rcv              0x20000ac8    0xc  Data  Lc  STM32FXModbus.o [1]
+s_mdbs_snd              0x20000b28    0x8  Data  Lc  STM32FXModbus.o [1]
+s_output_para           0x20000a8c   0x20  Data  Lc  UserApp.o [1]
+s_refflg                0x20000b52    0x2  Data  Lc  UserApp.o [1]
+s_snrref                0x20000b48    0x4  Data  Lc  UserApp.o [1]
+s_snrval                0x20000aac   0x1c  Data  Lc  UserApp.o [1]
+s_tdcdat1               0x2000081c  0x108  Data  Lc  UserApp.o [1]
+s_tdcdat2               0x20000924  0x108  Data  Lc  UserApp.o [1]
+sndbuf                  0x2000041c  0x200  Data  Lc  UserApp.o [1]
+trig_flg                0x20000b58    0x1  Data  Lc  UserApp.o [1]
+u32_t_interval          0x20000b4c    0x4  Data  Lc  UserApp.o [1]
+u64_ad_facroty          0x20000b40    0x8  Data  Lc  UserApp.o [1]
+u8magnetnum             0x2000001a    0x1  Data  Lc  UserApp.o [1]
+u_flag                  0x20000b57    0x1  Data  Lc  STM32FXModbus.o [1]
+upgradeflg              0x20000b59    0x1  Data  Lc  UserApp.o [1]
+
+
+[1] = D:\3.Company\XIE\1-Code\BeijinJikang_V6\Proj\Debug\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  17 622 bytes of readonly  code memory
+   1 228 bytes of readonly  data memory
+   4 953 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
